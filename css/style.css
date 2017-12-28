@@ -35,17 +35,17 @@ body, html{
     margin: 10px 50px;
 }
 .gallery img{
-    width: 230px;
-    padding: 5px;
+    width:22%;
+    padding:1%;
     filter: grayscale(100%);
     transition: 1s;
     }
 .gallery img:hover{
     filter: grayscale(0);
+    transform: scale(1.1);
 }
 
-
-.section{
+section{
   text-align:center;
   padding:50px 80px;
 }
