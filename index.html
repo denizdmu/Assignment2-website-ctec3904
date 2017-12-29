@@ -7,11 +7,12 @@
   <title> Cars of The past</title>
     
   <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="javaScript"></script>
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script src="javaScript"></script>
     
 </head>
     <body>
-      <div class="nav">
+		<div class="nav"></div>
         <label for=toggle>&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <div class ="menu">
@@ -37,10 +38,9 @@
        <div class="gallery"> 
           
           <a href= "images/ford-428/1.jpg"><img src="images/ford-428/1.jpg" alt="pic1"></a>
-          <a href= "images/ford-428/2.jpg"><img src="images/ford-428/2.jpg" alt="pic2"></a>
+          <a href= "mages/ford-428/2.jpg"><img src="images/ford-428/2.jpg" alt="pic2"></a>
            <a href= "images/ford-428/3.jpg"><img src="images/ford-428/3.jpg" alt="pic3"></a>
           <a href= "images/ford-428/4.jpg"><img src="images/ford-428/4.jpg" alt="pic1"></a>
-          <p1><a href="#top">Back to top</a></p1>
           
       </div>
       
@@ -61,10 +61,6 @@
     Only 39 cars were built between 1962 and 1964, all by hand at the Ferrari factory in Maranello. 33 of those were the 1962-63 Series I body with a further three built as the Series II and another three as the '330 GTO' special with a larger engine. The rarity and history of the 250 GTO mark it as the most highly sort after Ferraris, and one of the most valuable cars in the world.
     </p> </div>
   
-         
-     
-
-	 
 	  
       <div class="gallery"> 
           
@@ -72,7 +68,6 @@
           <a href= "images/250gtopictures/2.jpg"><img src="images/250gtopictures/2.jpg" alt="2"></a>
           <a href= "images/250gtopictures/3.jpg" ><img src="images/250gtopictures/3.jpg" alt="3"></a>
           <a href= "images/250gtopictures/4.jpg" ><img src="images/250gtopictures/4.jpg" alt="4"></a>
-          <p1><a href="#top">Back to top</a></p1>
 
       </div>
  
@@ -99,7 +94,24 @@ The engine capacity was enlarged to 4 litres by increasing the bore to 96mm. The
            <a href= "images/db5/2.jpg" ><img src="images/db5/2.jpg" alt="2"></a>
            <a href= "images/db5/3.jpg"><img src="images/db5/3.jpg" alt="3"></a>
            <a href= "images/db5/4.jpg" ><img src="images/db5/4.jpg" alt="4"></a>
-<p1><a href="#top">Back to top</a></p1>
+		   
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		   <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	   
 </div>
 	    </section>
 	
@@ -132,7 +144,6 @@ The engine capacity was enlarged to 4 litres by increasing the bore to 96mm. The
     </script>
 		
 		</div>
-
 	
 </body>
 </html>
